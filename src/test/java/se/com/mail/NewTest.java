@@ -21,6 +21,14 @@ public class NewTest {
     }
 
     @Test
+    public void testEasy2() {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("http://demo.guru99.com/test/guru99home/");
+        String title = driver.getTitle();
+        Assert.assertTrue(title.contains("Demo Guru99 Page"));
+    }
+
+    @Test
     public void testEasy1() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://demo.guru99.com/test/guru99home/");
