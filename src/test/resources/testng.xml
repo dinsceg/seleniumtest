@@ -4,6 +4,7 @@
     <test name="Test1">
         <classes>
             <class name="se.com.mail.NewTest"/>
+            <class name="se.com.mail.Todo"/>
         </classes>
     </test>
 </suite>

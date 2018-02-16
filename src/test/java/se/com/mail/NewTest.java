@@ -25,7 +25,7 @@ public class NewTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://demo.guru99.com/test/guru99home/");
         String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Demo Guru99 Page"));
+        Assert.assertTrue(title.contains("Demo Guru99 0000Page"));
     }
 
     @Test
@@ -33,7 +33,7 @@ public class NewTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://demo.guru99.com/test/guru99home/");
         String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Demo Guru99000 Page"));
+        Assert.assertTrue(title.contains("Demo Guru99 Page"));
     }
 
     @BeforeTest
